@@ -6,35 +6,40 @@ import { smoothScroll } from './JavaScript/smoothScroll.js'
 
 const data = reactive({
   titleList: [
-    '你好，请多指教',
-    '希望能成为有趣的人',
-    'さあ、ゲームを始めよう',
-    '相信美好的事情即将发生',
-    '平凡的日常正奇迹的发生着',
-    '你所热爱的<br/>就是你的生活',
-    '给时光以生命<br/>给岁月以文明',
-    '路虽远行则将至<br/>事虽难做则必成',
-    '一望无际的迷雾中<br/>有人在寻找光明',
-    '当你在凝视着网页的时候<br/>网页也正在凝视着你',
-    '成长的路不需要惊天伟业<br/>平凡踏实也同样精彩',
-  ],
-  navLinks: [{
+  '要有勇气去追随你的心和直觉——它们知道你想成为什么',
+  '人生苦短，不要浪费时间在别人的期待里',
+  '往日不悔，未来可期',
+  '心有猛虎，细嗅蔷薇',
+  '身如芥子，心藏须弥',
+  '你只管努力，剩下的交给时间',
+  'Success is not final<br/>Failure is not fatal',
+  '夢を見続ける者だけが<br/>未来を掴む',
+  '把自己当傻瓜，不懂就问，你会学到更多',
+  '星光不问赶路人<br/>时光不负有心人',
+  '心有所念<br/>方能坚持向前',
+  '保持独立<br/>不被外界所左右',
+  '在迷雾中行走，也要相信光明终将出现',
+  'Don’t watch the clock;<br/>do what it does. Keep going.',
+  '过去无法重写<br/>却让我更加坚强',
+  '一个人为什么要努力？<br/>因为梦想值得拼尽全力',
+],
+  navLinks: [/* {
     name: 'Blog',
     link: 'https://blog.hanahime.online',
-  }, {
+  }, */ {
     name: 'Index',
-    link: 'https://HanaKDev.github.io',
+    link: 'https://LhyYBMQ520.github.io',
   }],
 
   myProjects: [{
     name: 'Index',
     description: '个人简介、主页、引导页',
-    link: 'https://github.com/HanaKDev/HanaKDev.github.io',
-  }, {
+    link: 'https://github.com/LhyYBMQ520/LhyYBMQ520.github.io',
+  }, /* {
     name: 'Blog',
     description: '个人博客，学习&随笔',
     link: 'https://blog.hanahime.online',
-  }, {
+  }, */ {
     name: 'undefined',
     description: '喵喵喵~ 暂时没有别的东西 wv',
     link: './',
@@ -42,19 +47,19 @@ const data = reactive({
 
   socialLinks: [{
     icon: '<i i-ant-design-github-outlined />',
-    link: 'https://github.com/HanaKDev',
+    link: 'https://github.com/LhyYBMQ520',
     label: 'Github',
   }, {
     icon: '<i i-ant-design-x-outlined />',
-    link: 'https://twitter.com/luanyaolingwu',
+    link: 'https://twitter.com/LhyYbmq',
     label: 'Twitter',
   }, /* {
     icon: '<i i-ant-design-youtube-outlined />',
-    link: 'https://youtube.com/@sun0225SUN',
+    link: 'https://youtube.com/@userId',
     label: 'YouTube',
   }, */ {
     icon: '<i i-ant-design-bilibili-outlined />',
-    link: 'https://space.bilibili.com/511373704/',
+    link: 'https://space.bilibili.com/1211287493/',
     label: 'Bilibili',
   }],
 })
@@ -96,7 +101,7 @@ onMounted(() => {
           <div bg-green rounded-full h-3 w-3 />
         </div>
         <div text-4 text-white tracking-widest>
-          笨蛋依凌 / Hanahime
+          Zako~ L菌
         </div>
       </div>
     </section>
@@ -109,10 +114,10 @@ onMounted(() => {
       <div mx-10 mb-10 flex justify-between>
         <div class="text-white/80">
           <p leading-10>
-            喵喵喵~ 你好，这里是是鸾依凌~
+            喵喵喵~ 你好，这里是是L-Cat哟~
           </p>
           <p leading-10>
-            热爱编程、读书、白天睡觉。
+            热爱睡觉(嘿嘿)
           </p>
           <p leading-10>
             喜欢计算机科学和 IT 互联网事业，希望能成为一名优秀的开发者。
@@ -173,17 +178,17 @@ onMounted(() => {
     <footer mb-5>
       <div class="text-white/60" mt-50 f-c-c>
         <i i-ant-design-environment-outlined mr-1 />
-        <p>路虽远行则将至，事虽难做则必成</p>
+        <p>人生天地间，忽如远行客</p>
         <!--  <i i-ant-design-environment-outlined ml-1 /> -->
       </div>
       <div class="text-white/60" mt-2 f-c-c gap-4>
         <div>
           © 2019
           <span id="yearSpan" />
-          鸾依凌
+          L菌
         </div>
         <div text-pink-800>
-          <a href="https://beian.miit.gov.cn">ICP: 粤ICP备2024275888号-1</a>
+          <a href="https://beian.miit.gov.cn">ICP: Undefined</a>
         </div>
       </div>
     </footer>
