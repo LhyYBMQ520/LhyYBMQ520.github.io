@@ -9,8 +9,8 @@ const data = reactive({
   '要有勇气去追随你的心和直觉——它们知道你想成为什么',
   '人生苦短，不要浪费时间在别人的期待里',
   '往日不悔，未来可期',
-  '心有猛虎，细嗅蔷薇',
-  '身如芥子，心藏须弥',
+  '脚步丈量世界时，山海皆为壮美注脚',
+  '每粒尘埃都有方向，每阵风都藏着远方',
   '你只管努力，剩下的交给时间',
   'Success is not final<br/>Failure is not fatal',
   '夢を見続ける者だけが<br/>未来を掴む',
@@ -18,7 +18,7 @@ const data = reactive({
   '星光不问赶路人<br/>时光不负有心人',
   '心有所念<br/>方能坚持向前',
   '保持独立<br/>不被外界所左右',
-  '在迷雾中行走，也要相信光明终将出现',
+  '以赤子之心穿越迷雾，归来仍是少年模样',
   'Don’t watch the clock;<br/>do what it does. Keep going.',
   '过去无法重写<br/>却让我更加坚强',
   '一个人为什么要努力？<br/>因为梦想值得拼尽全力',
@@ -114,7 +114,7 @@ onMounted(() => {
       <div mx-10 mb-10 flex justify-between>
         <div class="text-white/80">
           <p leading-10>
-            喵喵喵~ 你好，这里是是L-Cat哟~
+            喵喵喵~ 你好，这里是L-Cat哟~
           </p>
           <p leading-10>
             热爱睡觉(嘿嘿)
